@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="PiedraPapelYTijera.js"></script>      
+        <title>Juego Piedra, Papel y Tijera</title>
+    </head>
+    <body>
+        <div id="Cabecera">
+            <img id="ImagenPrincipal" src="../Actividad08/bannerJs.jpg"/>
+            <br/>
+            <h1>Juego Piedra, Papel y Tijera</h1>
+            <h3>Opciones</h3>
+        </div>
+        <div id="CuerpoPagina">
+             <button value="0" onclick="opcionUsuario(this.value);">Piedra</button>
+             <button value="1" onclick="opcionUsuario(this.value);">Papel</button>
+             <button value="2" onclick="opcionUsuario(this.value);">Tijera</button>
+             <br/>
+             <p id="ganados">Ganados: </p>
+             <br/>
+             <p id="perdidos">Perdidos: </p>
+             <br/>
+             <p id="empatados" >Empatados: </p>
+        </div>
+        <div id="PieDePagina">
+            <hr/>
+            <center><p>&copy;2019 Desarrollaro por <a href="#">Owen Ramirez </a></p></center>
+        </div>        
+    </body>
+</html>
